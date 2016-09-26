@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#fff"
+                android:padding="7dp">
+
+    <ImageView
+        android:id="@+id/iv_community_head_pic"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_community_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/iv_community_head_pic"
+        android:text="ssssssssss"
+        android:textSize="23sp"/>
+
+    <TextView
+        android:id="@+id/tv_community_release_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tv_community_name"
+        android:layout_below="@id/tv_community_name"
+        android:layout_marginTop="5dp"
+        android:text="42分钟前"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tv_community_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="求点赞"
+        android:textColor="@color/colorRed"
+        android:textSize="24sp"/>
+
+    <HorizontalScrollView
+        android:id="@+id/hs_community_goods_pic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_community_head_pic"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <GridView
+                android:id="@+id/community_goods_pic"
+                android:layout_width="800dp"
+                android:layout_height="wrap_content"
+                android:columnWidth="60dp"
+                android:numColumns="8">
+            </GridView>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/community_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hs_community_goods_pic"
+        android:layout_marginTop="5dp"
+        android:text="222222222222"
+        android:textSize="23sp"/>
+
+    <TextView
+        android:id="@+id/community_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/community_des"
+        android:layout_marginTop="10dp"
+        android:background="@color/community_listview"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:layout_below="@+id/community_divider">
+
+        <TextView
+            android:id="@+id/tv_community_thumb_up_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/ic_thumb_up"
+            android:text="19"/>
+
+        <TextView
+            android:id="@+id/tv_community_comments_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/tv_community_thumb_up_num"
+            android:drawableLeft="@drawable/ic_comments"
+            android:text="2"/>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@drawable/shape_topbar"
+        android:gravity="center">
+        <TextView
+            android:gravity="center"
+            android:textSize="30dp"
+            android:id="@+id/tb_scan"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:text="@string/ic_myhome_topbar_scan"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/tb_search"
+            android:gravity="center"
+            android:layout_weight="5"
+            android:layout_width="0dp"
+            android:background="@drawable/shape_myhome_topbar_search"
+            android:text="请输入宝贝关键字"
+            android:layout_height="35dp" />
+        <TextView
+            android:gravity="center"
+            android:textSize="30dp"
+            android:id="@+id/tb_list"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:text="@string/ic_myhome_topbar_list"
+            android:layout_height="match_parent" />
+    </LinearLayout>//TB
+    <com.youth.banner.Banner
+        android:id="@+id/banner_myhome"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"></com.youth.banner.Banner>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="首页"/>
+</LinearLayout>

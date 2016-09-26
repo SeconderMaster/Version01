@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lmj.a2hm2.Myhome.SearchResult">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="#eeeeee"
+        android:gravity="center">
+        <TextView
+            android:gravity="center"
+            android:textSize="20dp"
+            android:id="@+id/tb_sr_back"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:textColor="#383838"
+            android:text="@string/ic_search_back"
+            android:layout_height="match_parent" />
+        <TextView
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:drawableLeft="@drawable/search"
+            android:id="@+id/tb_sr_search"
+            android:layout_weight="5"
+            android:layout_width="0dp"
+            android:background="@drawable/shape_myhome_topbar_search"
+            android:layout_height="35dp"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            />
+        <TextView
+            android:gravity="center"
+            android:textSize="18dp"
+            android:id="@+id/tb_sr_filter"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:text="筛选"
+            android:layout_height="match_parent" />
+    </LinearLayout>//TB
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#ffffff">
+        <android.support.v7.widget.AppCompatSpinner
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:entries="@array/region"
+            android:layout_height="wrap_content">
+
+        </android.support.v7.widget.AppCompatSpinner>
+        <android.support.v7.widget.AppCompatSpinner
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:entries="@array/classify"
+            android:layout_height="wrap_content">
+
+        </android.support.v7.widget.AppCompatSpinner>
+        <android.support.v7.widget.AppCompatSpinner
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:entries="@array/sort"
+            android:layout_height="wrap_content">
+
+        </android.support.v7.widget.AppCompatSpinner>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="宝贝搜索结果"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:layout_marginBottom="10dp"/>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sr_recyclerview">
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

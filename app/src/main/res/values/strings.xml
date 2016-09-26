@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">2HM2</string>
+    <string name="ic_myhome">&#xe600;</string>
+    <string name="ic_community">&#xe63a;</string>
+    <string name="ic_release">&#xe65c;</string>
+    <string name="ic_msg">&#xe642;</string>
+    <string name="ic_my">&#xe60b;</string>
+    <string name="ic_myhome_topbar_scan">&#xe65d;</string>
+    <string name="ic_myhome_topbar_list">&#xe740;</string>
+    <string name="ic_search_back">&#xe603;</string>
+    <string name="ic_search_icon">&#x343e;</string>
+
+    <string name="ic_my_release">&#xe637;</string>
+    <string name="ic_my_sold">&#xe602;</string>
+    <string name="ic_my_buy">&#xe601;</string>
+    <string name="ic_my_like">&#xe623;</string>
+    <string name="ic_my_auction">&#xe628;</string>
+    <string name="ic_my_have">&#xe694;</string>
+    <string name="ic_my_setting">&#xe737;</string>
+    <string name="ic_my_into">&#xe653;</string>
+    <string name="ic_login_head">&#xe648;</string>
+    <string name="ic_login_name_list">&#xe611;</string>
+    <string name="ic_login_eye_hide">&#xe62e;</string>
+    <string name="ic_phone_number">&#xe65b;</string>
+    <string name="ic_verification_code">&#xe606;</string>
+    <string name="ic_password">&#xe633;</string>
+    <string name="ic_confirm_password">&#xe692;</string>
+    <string name="ic_email">&#xe61f;</string>
+    <string name="ic_username">&#xe647;</string>
+    <string name="ic_SMS_login_WeChat">&#x3433;</string>
+    <string name="ic_SMS_login_QQ">&#xe627;</string>
+    <string name="ic_SMS_login_Micro_blog">&#xe61e;</string>
+    <string name="ic_tb_release_cancel">&#xe606;</string>
+    <string name="ic_tb_release_more">&#xe638;</string>
+    <string name="ic_release_add_picture">&#xe607;</string>
+    <string name="ic_community_add">&#xe748;</string>
+
+</resources>

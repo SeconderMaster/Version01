@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+<ImageView
+    android:layout_alignParentLeft="true"
+    android:id="@+id/iv_comment_head"
+    android:layout_width="40dp"
+    android:layout_height="40dp"/>
+    <TextView
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@id/iv_comment_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_comment_name"
+        android:text="桃子妖妖"/>
+    <TextView
+        android:layout_marginTop="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_comment_name"
+        android:layout_alignLeft="@id/tv_comment_name"
+        android:text="回复：呵呵"
+        android:id="@+id/tv_comment_content"/>
+    <TextView
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="两天前"
+        android:id="@+id/tv_comment_releasetime"/>
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>
+Created by FontForge 20120731 at Wed Sep 14 19:14:04 2016
+ By admin
+</metadata>
+<defs>
+<font id="iconfont" horiz-adv-x="374" >
+  <font-face 
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    panose-1="2 0 6 3 0 0 0 0 0 0"
+    ascent="896"
+    descent="-128"
+    x-height="792"
+    bbox="34 -161 965 792"
+    underline-thickness="50"
+    underline-position="-100"
+    unicode-range="U+0078-E748"
+  />
+<missing-glyph 
+d="M34 0v682h272v-682h-272zM68 34h204v614h-204v-614z" />
+    <glyph glyph-name=".notdef" 
+d="M34 0v682h272v-682h-272zM68 34h204v614h-204v-614z" />
+    <glyph glyph-name=".null" horiz-adv-x="0" 
+ />
+    <glyph glyph-name="nonmarkingreturn" horiz-adv-x="341" 
+ />
+    <glyph glyph-name="x" unicode="x" horiz-adv-x="1001" 
+d="M281 543q-27 -1 -53 -1h-83q-18 0 -36.5 -6t-32.5 -18.5t-23 -32t-9 -45.5v-76h912v41q0 16 -0.5 30t-0.5 18q0 13 -5 29t-17 29.5t-31.5 22.5t-49.5 9h-133v-97h-438v97zM955 310v-52q0 -23 0.5 -52t0.5 -58t-10.5 -47.5t-26 -30t-33 -16t-31.5 -4.5q-14 -1 -29.5 -0.5
+t-29.5 0.5h-32l-45 128h-439l-44 -128h-29h-34q-20 0 -45 1q-25 0 -41 9.5t-25.5 23t-13.5 29.5t-4 30v167h911zM163 247q-12 0 -21 -8.5t-9 -21.5t9 -21.5t21 -8.5q13 0 22 8.5t9 21.5t-9 21.5t-22 8.5zM316 123q-8 -26 -14 -48q-5 -19 -10.5 -37t-7.5 -25t-3 -15t1 -14.5
+t9.5 -10.5t21.5 -4h37h67h81h80h64h36q23 0 34 12t2 38q-5 13 -9.5 30.5t-9.5 34.5q-5 19 -11 39h-368zM336 498v228q0 11 2.5 23t10 21.5t20.5 15.5t34 6h188q31 0 51.5 -14.5t20.5 -52.5v-227h-327z" />
+    <glyph glyph-name="uniE748" unicode="&#xe748;" horiz-adv-x="1024" 
+d="M675 329h-127v127q0 15 -10.5 25.5t-25.5 10.5t-26 -10.5t-11 -25.5v-127h-127q-15 0 -25.5 -11t-10.5 -26t10.5 -25.5t25.5 -10.5h127v-127q0 -15 11 -26t26 -11t25.5 11t10.5 26v127h127q15 0 25.5 10.5t10.5 25.5t-10.5 26t-25.5 11zM511 747q-92 0 -176 -36t-145 -97
+t-97 -145t-36 -176.5t36 -176.5t97 -144.5t145 -96.5t176.5 -36t176.5 36t144.5 96.5t96.5 144.5t36 176.5t-36 176.5t-96.5 145t-144.5 97t-177 36zM511 -105q-107 0 -198.5 53.5t-145 145t-53.5 199t53.5 199t145 145t199 53.5t199 -53.5t145 -145t53.5 -199t-53.5 -199
+t-145 -145t-199.5 -53.5zM511 -105z" />
+  </font>
+</defs></svg>

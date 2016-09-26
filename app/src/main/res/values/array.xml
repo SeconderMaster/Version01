@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="url">
+        <item>http://img.zcool.cn/community/0192a557a352ef0000012e7ed104e4.jpg</item>
+        <item>http://img.zcool.cn/community/01ae5656e1427f6ac72531cb72bac5.jpg</item>
+        <item>http://img.zcool.cn/community/0166c756e1427432f875520f7cc838.jpg</item>
+        <item>http://img.zcool.cn/community/018fdb56e1428632f875520f7b67cb.jpg</item>
+        <item>http://img.zcool.cn/community/01c8dc56e1428e6ac72531cbaa5f2c.jpg</item>
+        <item>http://img.zcool.cn/community/01fd2756e142716ac72531cbf8bbbf.jpg</item>
+        <item>http://img.zcool.cn/community/0114a856640b6d32f87545731c076a.jpg</item>
+    </array>
+    <string-array name="region">
+        <item>全国</item>
+        <item>厦门</item>
+        <item>北京</item>
+        <item>上海</item>
+        <item>广州</item>
+    </string-array>
+    <string-array name="classify">
+        <item>全部分类</item>
+        <item>女装</item>
+        <item>男装</item>
+        <item>手机</item>
+        <item>数码</item>
+    </string-array>
+    <string-array name="sort">
+        <item>默认排序</item>
+        <item>最新发布</item>
+        <item>价格最低</item>
+        <item>价格最高</item>
+    </string-array>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/community_actionbar"
+        android:background="#000">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/release_back"
+            android:layout_marginLeft="10dp"/>
+        <Button
+            android:id="@+id/btn_release_essary"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发布"
+            android:background="@color/colorGreen"/>
+    </RelativeLayout>
+<LinearLayout
+    android:layout_below="@id/community_actionbar"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:id="@+id/ll_write_essary">
+    <EditText
+        android:id="@+id/et_write_essary"
+        android:gravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:hint="这一刻你的想法..."/>
+</LinearLayout>
+</RelativeLayout>

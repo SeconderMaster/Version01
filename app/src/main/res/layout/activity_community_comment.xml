@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:id="@+id/rl_comment_actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="宝贝详情"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_article_head_pic"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_article_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/iv_article_head_pic"
+            android:text="ssssssssss"
+            android:textSize="23sp"/>
+
+        <TextView
+            android:id="@+id/tv_article_release_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tv_article_name"
+            android:layout_below="@id/tv_article_name"
+            android:layout_marginTop="5dp"
+            android:text="42分钟前"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_article_des"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_article_release_time"
+            android:layout_marginTop="15dp"
+            android:text="222222222222"
+            android:textSize="23sp"/>
+
+        <TextView
+            android:id="@+id/temp_divider"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_below="@id/tv_article_des"
+            android:layout_marginTop="2dp"
+            android:background="@color/community_listview"/>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/comment_listview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <LinearLayout
+        android:id="@+id/temp_bottombar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_write_comment"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:background="@null"
+            android:hint="说点什么……"/>
+        <Button
+            android:background="@color/colorRed"
+            android:id="@+id/btn_release_comment"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="评论"/>
+    </LinearLayout>
+</LinearLayout>

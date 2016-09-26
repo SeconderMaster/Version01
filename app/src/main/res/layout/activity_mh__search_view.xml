@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="#eeeeee"
+        android:gravity="center">
+        <TextView
+            android:gravity="center"
+            android:textSize="20dp"
+            android:id="@+id/tb_back"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:textColor="#383838"
+            android:text="@string/ic_search_back"
+            android:layout_height="match_parent" />
+        <EditText
+            android:drawableLeft="@drawable/search"
+            android:paddingLeft="15dp"
+            android:id="@+id/tb_et_search"
+            android:layout_weight="5"
+            android:layout_width="0dp"
+            android:background="@drawable/shape_myhome_topbar_search"
+            android:hint="请输入宝贝关键字"
+            android:textColorHint="#CFCFCF"
+            android:layout_height="35dp"
+            android:textSize="15dp"
+            android:imeOptions="actionSearch" />
+        <TextView
+            android:gravity="center"
+            android:textSize="18dp"
+            android:id="@+id/tb_go"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:text="搜索"
+            android:layout_height="match_parent" />
+    </LinearLayout>//TB
+</LinearLayout>
